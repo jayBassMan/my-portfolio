@@ -51,7 +51,7 @@ nav {
     list-style: none;
 }
 
-@keyframes rotatelink {
+@keyframes excitelink {
     from {
         transform: scale(1);
     }
@@ -59,7 +59,7 @@ nav {
         transform: scale(1.5);
     }
 }
-.nav-list_links a {
+.nav-list-links a {
     color: rgb(226, 226, 226);
     text-decoration: none;
     letter-spacing: 3px;
@@ -70,7 +70,7 @@ nav {
 }
 
 .nav-list-links a:hover {
-    animation-name: rotatelink;
+    animation-name: excitelink;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
 }
