@@ -69,7 +69,7 @@ nav {
     /* transform: rotate(45deg); */
 }
 
-.nav-list_links a:hover {
+.nav-list-links a:hover {
     animation-name: rotatelink;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
@@ -143,7 +143,7 @@ nav {
 .toggle .burger-line-top {
     transform: rotate(-45deg) translate(-5px,6px);
 }
-.toggle .burger-line-mid {
+.toggle .burger-line-middle {
     opacity: 0;   
 }
 .toggle .burger-line-bottom {
