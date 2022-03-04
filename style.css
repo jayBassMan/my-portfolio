@@ -37,7 +37,7 @@ nav {
 
 .nav-list-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
    /*  position: absolute; */
     width: 50%;
     /* animation-links: nav-ease; */
@@ -74,6 +74,7 @@ nav {
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
 }
+
 
 .burger-menu {
     display: none;
@@ -170,16 +171,23 @@ nav {
 }
 
 .box-1 {
-    width: 300px;
+    width: 250px;
     height: 150px;
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     position: absolute;
-    margin-left: 50px;
+    margin-left: 150px;
     margin-top: 50px;
     border-radius: 20px;
     animation-name: box-ease;
     animation-duration: 2.5s;
+    background-image: url("./img/jay-2.JPG");
+    /* object-fit: fill; */
+    background-size: contain;
+    background-repeat: no-repeat center center;
+    background-position: 50% 50%;
+    /* opacity: 60%; */
+    text-align: center;
 }
 
 .box-2 {
@@ -188,9 +196,61 @@ nav {
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     position: absolute;
+    margin: 10px;
     margin-left: 50px;
     margin-top: 250px;
     border-radius: 20px;
     animation-name: box-ease;
     animation-duration: 5s;
+    text-align: center;
+}
+
+.box-3 {
+    width: 100px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 450px;
+    border-radius: 20px;
+    animation-name: box-ease;
+    animation-duration: 7.5s;
+    background-image: url("./img/semantic-html-pic.png");
+    object-fit: fill;
+    background-size: contain;
+    background-repeat: no-repeat center center;
+    max-width: 100%;
+    text-align: left;
+}
+
+.img-box-3 {
+
+}   
+
+.box-4 {
+    width: 300px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 650px;
+    border-radius: 20px;
+    animation-name: box-ease;
+    animation-duration: 9s;
+    z-index: 2;
+    text-align: left;
+}
+.box-4 li {
+    list-style: none;
+    text-align: left;
+}
+
+.footer {
+    display: flex;
+    justify-content: row;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+
 }
