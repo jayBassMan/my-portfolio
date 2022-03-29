@@ -9,7 +9,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     min-height: 8vh;
-    background-color: #859696;
+    background-color: #d47800;
     font-family: 'Poppins';
 }
 
@@ -182,7 +182,7 @@ nav {
     border-radius: 20px;
     animation-name: box-ease;
     animation-duration: 2.5s;
-    background-image: url("./img/jay-2.JPG");
+    background-image: url("");
     /* object-fit: fill; */
     background-size: contain;
     background-repeat: no-repeat center center;
@@ -217,7 +217,7 @@ nav {
     border-radius: 20px;
     animation-name: box-ease;
     animation-duration: 7.5s;
-    background-image: url("./img/semantic-html-pic.png");
+    /* background-image: url("./img/semantic-html-pic.png"); */
     object-fit: fill;
     background-size: contain;
     background-repeat: no-repeat center center;
@@ -231,12 +231,13 @@ nav {
 
 .box-4 {
     width: 300px;
-    height: 150px;
+    height: 160px;
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     position: absolute;
     margin-left: 50px;
     margin-top: 650px;
+    padding: 8px;
     border-radius: 20px;
     animation-name: box-ease;
     animation-duration: 9s;
