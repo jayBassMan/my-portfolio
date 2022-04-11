@@ -7,7 +7,7 @@ In this project I started my developer profile.
 
 ## Sceenshot of final page 
 
-![](./assets/img/final-page-screenshot.png)
+[](./assets/img/final-page-screenshot.png)
 ## Link to github pages
 
 <https://jaybassman.github.io/my-portfolio/>
