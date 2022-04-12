@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: url('../assets/img/plexus-background.jpeg');
+    background: url('./assets/img/plexus-background.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 1px;
