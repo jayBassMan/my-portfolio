@@ -28,8 +28,8 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'blue.css'
 	}
 
-	if(mode == 'green'){
-		document.getElementById('theme-style').href = 'green.css'
+	if(mode == 'dark'){
+		document.getElementById('theme-style').href = 'dark.css'
 	}
 
 	if(mode == 'purple'){

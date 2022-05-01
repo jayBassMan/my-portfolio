@@ -245,27 +245,28 @@ h6 { font-size: 16px;}
 	height: 180px;
 	padding-left: 30px;
 	padding-top: 30px;
+	border-radius: 50px;
 }
 
 #preview{
 	width: 300px;
-	border:1.5px solid #17a2b8;
-	border-radius: 20px;
+	border:1.5px solid #0effff;
+	border-radius: 50px;
 	background-color: var(--previewBg);
 	padding:15px;
 	position: relative;
 }
 
-.corner{
+/* .corner{
 	width:7px;
 	height: 7px;
 	border-radius: 50%;
 	border:1.5px solid #17a2b8;
 	background-color: #fff;
 	position: absolute;
-}
+} */
 
-#corner-tl{
+/* #corner-tl{
 	top:-5px;
 	left: -5px
 }
@@ -285,7 +286,7 @@ h6 { font-size: 16px;}
 #corner-bl{
 	bottom:-5px;
 	left: -5px
-}
+} */
 
 .about-wrapper{
 	display: grid;
