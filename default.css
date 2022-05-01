@@ -10,7 +10,7 @@
 	--themeDotBorder:#24292e;
 
 	--previewBg:rgb(251, 249, 243, 0.8);
-	--previewShadow:#f0ead6;
+	--previewShadow:#e7e5e1;
 
 
 	--buttonColor:black;
@@ -215,8 +215,8 @@ h6 { font-size: 16px;}
 	background-color: #192734;
 }
 
-#green-mode{
-	background-color: #78866b;
+#dark-mode{
+	background-color: #0e120a;
 }
 
 #purple-mode{
@@ -250,6 +250,7 @@ h6 { font-size: 16px;}
 #preview{
 	width: 300px;
 	border:1.5px solid #17a2b8;
+	border-radius: 20px;
 	background-color: var(--previewBg);
 	padding:15px;
 	position: relative;
@@ -299,6 +300,8 @@ h6 { font-size: 16px;}
 	display: flex;
 	justify-content: space-evenly;
 	background-color: var(--previewShadow);
+	box-shadow: grey;
+	border-radius: 20px;
 }
 
 .social-links{
